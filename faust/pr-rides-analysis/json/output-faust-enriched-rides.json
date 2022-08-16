@@ -1,0 +1,14 @@
+{
+  "user_id": 0,
+  "gender": "Non-binary",
+  "car_type": "Lyft",
+  "model_type": "Lyft XL",
+  "country": "United States",
+  "city": "Port Pura",
+  "distance_in_km": 0.93,
+  "final_price_real": 67.85,
+  "dynamic_fare": false,
+  "time_period": "morning",
+  "event_time": "2022-08-16 10:44:04.034154",
+  "processing_time": "2022-08-16 12:59:01.318478"
+}

@@ -8,7 +8,7 @@ from src.app import app, get_input_topic_src_app_rides_json, output_enriched_rid
 
 # build connection string
 # for mongodb & mysql
-client = pymongo.MongoClient("mongodb://root:w2nyCRBZKj@137.184.242.53:27017/owshq?authSource=admin")
+client = pymongo.MongoClient("mongodb://root:w2nyCRBZKj@45.55.97.53:27017/owshq?authSource=admin")
 db = client["owshq"]
 user_collection = db["user"]
 

@@ -9,6 +9,7 @@ export TOPIC_SRC_APP_RIDES_JSON = "src-app-ride-events-json"
 http://159.89.247.235:3636/docs
 
 # init python faust application
+# faust/pr-rides-analysis
 faust -A src.app worker -l info
 
 # verify topics
