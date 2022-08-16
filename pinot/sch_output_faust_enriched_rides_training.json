@@ -1,5 +1,5 @@
 {
-  "schemaName": "sch_output_faust_enriched_rides",
+  "schemaName": "sch_output_faust_enriched_rides_54acb974",
   "dimensionFieldSpecs": [
     {
       "name": "user_id",
@@ -49,7 +49,7 @@
   "dateTimeFieldSpecs": [{
     "name": "event_time",
     "dataType": "STRING",
-    "format": "1:MILLISECONDS:SIMPLE_DATE_FORMAT:yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+    "format": "1:MILLISECONDS:SIMPLE_DATE_FORMAT:yyyy-MM-dd HH:mm:ss.SSSSSS",
     "granularity": "1:DAYS"
   }]
 }

@@ -6,7 +6,7 @@
     "timeType": "DAYS",
     "retentionTimeUnit": "DAYS",
     "retentionTimeValue": "60",
-    "schemaName": "sch_output_faust_enriched_rides",
+    "schemaName": "sch_output_faust_enriched_rides_54acb974",
     "replication": "1",
     "replicasPerPartition": "1"
   },
