@@ -1,0 +1,55 @@
+{
+  "schemaName": "sch_output_faust_enriched_rides",
+  "dimensionFieldSpecs": [
+    {
+      "name": "user_id",
+      "dataType": "LONG"
+    },
+    {
+      "name": "gender",
+      "dataType": "STRING"
+    },
+    {
+      "name": "car_type",
+      "dataType": "STRING"
+    },
+    {
+      "name": "model_type",
+      "dataType": "STRING"
+    },
+    {
+      "name": "country",
+      "dataType": "STRING"
+    },
+    {
+      "name": "city",
+      "dataType": "STRING"
+    },
+    {
+      "name": "distance_in_km",
+      "dataType": "FLOAT"
+    },
+    {
+      "name": "final_price_real",
+      "dataType": "FLOAT"
+    },
+    {
+      "name": "dynamic_fare",
+      "dataType": "STRING"
+    },
+    {
+      "name": "time_period",
+      "dataType": "STRING"
+    },
+    {
+      "name": "processing_time",
+      "dataType": "STRING"
+    }
+  ],
+  "dateTimeFieldSpecs": [{
+    "name": "event_time",
+    "dataType": "STRING",
+    "format": "1:MILLISECONDS:SIMPLE_DATE_FORMAT:yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+    "granularity": "1:DAYS"
+  }]
+}
