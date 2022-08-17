@@ -6,3 +6,7 @@
 # install libraries
 pip install -r requirements.txt
 ```
+
+## the business problem
+
+<https://github.com/owshq-live/use-case-uber-rides-analysis/blob/3414124dcb4a79cdeb832c5e377cdc8586a45067/images/business-problem.excalidraw.png>
