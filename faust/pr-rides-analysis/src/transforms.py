@@ -71,6 +71,7 @@ def transform_rides_events(events):
     else:
         time_period = "night"
 
+    # mongodb database
     # find clause using user_id ~ seek operation
     # filter columns to output as dict
     find_user_id = {'user_id': events.user_id}
